@@ -17,7 +17,7 @@ HELP.md
 *.iws
 *.iml
 *.ipr
-
+**/.idea
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
@@ -26,3 +26,6 @@ HELP.md
 /.nb-gradle/
 /build/
 .mvn/
+chapter1/.idea/workspace.xml
+.DS_Store
+*/.DS_Store
