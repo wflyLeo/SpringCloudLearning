@@ -22,5 +22,8 @@ public class HelloControler {
         return helloService.hiService(name);
     }
 
-
+    @RequestMapping(value = "/word")
+    public String word(@RequestParam String word){
+        return helloService.testService(word);
+    }
 }

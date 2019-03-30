@@ -18,4 +18,8 @@ public class HelloService {
         return restTemplate.getForObject("http://SERVICE-HI/hi?name="+name,String.class);
     }
 
+    public String testService(String word) {
+        return restTemplate.getForObject("http://SERVICE-HI/Test1/soEasy?word="+word,String.class);
+    }
+
 }
