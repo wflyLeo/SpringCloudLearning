@@ -10,6 +10,7 @@ import org.springframework.context.annotation.Bean;
 @EnableZuulProxy
 @EnableEurekaClient
 @SpringBootApplication
+@EnableDiscoveryClient
 public class ServiceZuulApplication {
 
 	public static void main(String[] args) {
